@@ -18,7 +18,17 @@ AWESOMENESS = [
 def start_here():
     """Home page."""
 
-    return "<!doctype html><html>Hi! This is the home page.</html>"
+    return """
+    <!doctype html>
+    <html>
+      <head>
+        <title>Hi! This is the home page.</title>
+      </head>
+      <body>
+        <a href="/hello">Start Here</a>
+      </body>
+    </html>
+    """
 
 
 @app.route('/hello')
@@ -36,6 +46,35 @@ def say_hello():
         <form action="/greet">
           What's your name? <input type="text" name="person">
           <input type="submit" value="Submit">
+          What compliment would you like?
+          <input type="radio" name="compliment" value="awesome">
+          <label>Awesome</label>
+          <input type="radio" name="compliment" value="terrific">
+          <label>Terrific</label>
+          <input type="radio" name="compliment" value="fantastic">
+          <label>Fantastic</label>
+          <input type="radio" name="compliment" value="neato">
+          <label>Neato</label>
+          <input type="radio" name="compliment" value="fantabulous">
+          <label>Fantabulous</label>
+          <input type="radio" name="compliment" value="wowza">
+          <label>Wowza</label>
+          <input type="radio" name="compliment" value="oh-so-not-meh">
+          <label>Oh-so-not-meh</label>
+          <input type="radio" name="compliment" value="brilliant">
+          <label>Brilliant</label>
+          <input type="radio" name="compliment" value="ducky">
+          <label>Ducky</label>
+          <input type="radio" name="compliment" value="coolio">
+          <label>Coolio</label>
+          <input type="radio" name="compliment" value="incredible">
+          <label>Incredible</label>
+          <input type="radio" name="compliment" value="wonderful">
+          <label>Wonderful</label>
+          <input type="radio" name="compliment" value="smashing">
+          <label>Smashing</label>
+          <input type="radio" name="compliment" value="lovely">
+          <label>Lovely</label>
         </form>
       </body>
     </html>
