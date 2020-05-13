@@ -45,36 +45,36 @@ def say_hello():
         <h1>Hi There!</h1>
         <form action="/greet">
           What's your name? <input type="text" name="person">
-          <input type="submit" value="Submit">
-          What compliment would you like?
+          <input type="submit" value="Submit"><br>
+          What compliment would you like?<br>
           <input type="radio" name="compliment" value="awesome">
           <label>Awesome</label>
           <input type="radio" name="compliment" value="terrific">
-          <label>Terrific</label>
+          <label>Terrific</label><br>
           <input type="radio" name="compliment" value="fantastic">
           <label>Fantastic</label>
           <input type="radio" name="compliment" value="neato">
-          <label>Neato</label>
+          <label>Neato</label><br>
           <input type="radio" name="compliment" value="fantabulous">
           <label>Fantabulous</label>
           <input type="radio" name="compliment" value="wowza">
-          <label>Wowza</label>
+          <label>Wowza</label><br>
           <input type="radio" name="compliment" value="oh-so-not-meh">
           <label>Oh-so-not-meh</label>
           <input type="radio" name="compliment" value="brilliant">
-          <label>Brilliant</label>
+          <label>Brilliant</label><br>
           <input type="radio" name="compliment" value="ducky">
           <label>Ducky</label>
           <input type="radio" name="compliment" value="coolio">
-          <label>Coolio</label>
+          <label>Coolio</label><br>
           <input type="radio" name="compliment" value="incredible">
           <label>Incredible</label>
           <input type="radio" name="compliment" value="wonderful">
-          <label>Wonderful</label>
+          <label>Wonderful</label><br>
           <input type="radio" name="compliment" value="smashing">
           <label>Smashing</label>
           <input type="radio" name="compliment" value="lovely">
-          <label>Lovely</label>
+          <label>Lovely</label><br>
         </form>
       </body>
     </html>
